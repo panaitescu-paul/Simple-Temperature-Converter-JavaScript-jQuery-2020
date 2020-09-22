@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.content {
+    border: 2px solid rgb(32, 33, 41);
+    width: 230px;
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.content h1 {
+    font-size: 28px;
+    background-color: midnightblue;
+    color: #fff;
+    padding: 10px 10px;
+    width: 90%;
+    text-align: center;
+}
+
+input#temperature {
+    width: 90%;
+    text-align: right;
+    padding: 5px;
+    margin: 3px 0;
+}
+
+.from {
+    float: left;
+    margin-right: 10px;
+}
+
+select {
+    width: 105px;
+    margin: 3px 0px;
+}
+
+#calculateBtn {
+    width: 100px;
+    padding: 5px;
+    margin: 3px 0;
+    text-align: center;
+}
+
+#summary {
+    background-color: #ccc;
+    width: 95%;
+    padding: 2px;
+    margin: 5px 0;
+}
+
+#summary p {
+    padding: 1px;
+    margin: 5px 5px;
+}
+
+#result-to {
+    font-weight: bold;
+}

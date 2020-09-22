@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+        <title>Temperature Converter</title>
+        <meta charset="utf-8"> 
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    </head>
+<body>
+    <div class="content">
+        <h1>Temperature Converter</h1>
+        <form action="" method="GET" id="myForm">
+            <label for="monetary">Convert</label>
+            <br>
+            <input type="number" id="temperature" value="0.00" placeholder="0.00" step="0.01" required>
+            <br>
+            <div class="from">
+                <label for="listFrom">From</label>
+                <br>
+                <select name="listFrom" size="3" id="list-from">
+                    <option value="C" selected>Celsius</option>
+                    <option value="F">Fahrenheit</option>
+                    <option value="K">Kelvin</option>
+                </select>
+            </div>
+            <div class="to">
+                <label for="listTo">To</label>
+                <br>
+                <select name="listTo" size="3" id="list-to">
+                    <option value="C">Celsius</option>
+                    <option value="F" selected>Fahrenheit</option>
+                    <option value="K">Kelvin</option>
+                </select>
+            </div>
+            <input type="submit" value="Calculate" id="calculateBtn">
+        </form>
+        <div id="summary">
+            <p>Result: 
+                <span id="result-from"></span>
+                <span id="result-to"></span>
+            </p>
+        </div>
+    </div>
+</body>
+    <script src="js/script.js"></script>
+</html>
